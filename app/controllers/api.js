@@ -48,7 +48,7 @@ api.all('/logout', function (req, res, next) {
 //     }) 
 // });
 
-// Delete Profile Data
+// Delete Calendar Data
 // api.all('/delete-calendar-db', function (req, res, next) {
 //     var query = Calendar.remove({});
 //     query.exec(function (error, clinicaltrials) {
