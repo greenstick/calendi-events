@@ -1,0 +1,15 @@
+{
+  "name": "calendi-events",
+  "version": "0.0.1",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "components"
+  ],
+  "dependencies": {
+    "d3": "^4.8.0",
+    "knockout": "knockout.js#^3.1.0",
+    "jquery": "^3.2.1",
+    "socket.io-client": "^1.7.4"
+  }
+}

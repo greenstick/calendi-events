@@ -1,0 +1,60 @@
+#header {
+	margin: 0 auto;
+}
+#content {
+	width: 100%;
+	margin: 0 auto;
+	background-color: azure;
+}
+/* preserves alignment of child container class with parent container class */
+#content .container .container {
+	width: 100%;
+}
+#error {
+	position: relative;
+	top: 148px;
+}
+
+/*
+Media Queries
+*/
+
+/* Desktop */
+@media (min-width: 1000px) and (max-width: 1200px) {
+	#content {
+		margin: 0 auto;
+	}
+	#error {
+		top: 148px;
+	}
+}
+
+/* Tablets */
+@media (min-width: 750px) and (max-width: 1000px) {
+	#content {
+		margin: 0 auto;
+	}
+	#error {
+		top: 148px;
+	}
+}
+
+/* Phablets */
+@media (min-width: 550px) and (max-width: 750px){
+	#content {
+		margin: 0 auto;
+	}
+	#error {
+		top: 148px;
+	}
+}
+
+/* Phones */
+@media (min-width: 400px) and (max-width: 550px) {
+	#content {
+		margin: 0 auto;
+	}
+	#error {
+		top: 10px;
+	}
+}
