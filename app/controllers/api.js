@@ -41,7 +41,7 @@ api.all('/logout', function (req, res, next) {
 // Delete Profile Data
 // api.all('/delete-profile-db', function (req, res, next) {
 //     var query = Profile.remove({});
-//     query.exec(function (error, clinicaltrials) {
+//     query.exec(function (error, profile) {
 //         if (error) return console.log(error);
 //         console.log("Status: All MongoDB Profile Records Deleted")
 //         res.end();
@@ -51,7 +51,7 @@ api.all('/logout', function (req, res, next) {
 // Delete Calendar Data
 // api.all('/delete-calendar-db', function (req, res, next) {
 //     var query = Calendar.remove({});
-//     query.exec(function (error, clinicaltrials) {
+//     query.exec(function (error, calendar) {
 //         if (error) return console.log(error);
 //         console.log("Status: All MongoDB Calendar Records Deleted")
 //         res.end();
